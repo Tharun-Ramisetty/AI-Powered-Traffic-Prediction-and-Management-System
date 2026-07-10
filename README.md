@@ -1,101 +1,92 @@
-# AI Traffic Prediction and Management System
+# 🚦 AI-Powered Traffic Prediction and Management System
 
-Smart-city traffic platform: YOLO-based detection, ByteTrack / DeepSORT
-tracking, LSTM + Attention forecasting, ANPR, accident / emergency-vehicle
-detection, email / FCM alerts, and route optimization — all surfaced
-through an 11-page Streamlit dashboard.
+## 📌 Overview
+An AI-based intelligent traffic management system that uses computer vision and deep learning techniques to detect vehicles, predict traffic density, and assist in smart traffic monitoring.
 
-## Quick start
+The system uses YOLOv8 for real-time vehicle detection and LSTM-based models for traffic prediction to improve traffic flow analysis and management.
+
+## ✨ Features
+
+- 🚗 Real-time Vehicle Detection using YOLOv8
+- 📊 Traffic Density Prediction using LSTM
+- 🚨 Emergency Vehicle Detection
+- 🔎 Automatic Number Plate Recognition (ANPR)
+- 🌦️ Weather-based Traffic Analysis
+- 📈 Smart Traffic Monitoring Dashboard
+
+## 🛠️ Technologies Used
+
+### Programming Language
+- Python
+
+### AI & Deep Learning
+- YOLOv8
+- LSTM
+- Deep Learning
+
+### Computer Vision
+- OpenCV
+
+## 📂 Project Structure
+
+
+AI-Powered-Traffic-Prediction-and-Management-System/
+
+├── models/
+│ └── yolov8m.pt
+│
+├── trained_models/
+│
+├── testvideos/
+│
+├── src/
+│
+├── requirements.txt
+│
+└── README.md
+
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the Repository
 
 ```bash
-# 1. Set up Python environment
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS / Linux
-source venv/bin/activate
+git clone https://github.com/your-username/AI-Powered-Traffic-Prediction-and-Management-System.git
 
+2. Navigate to Project Directory
+cd AI-Powered-Traffic-Prediction-and-Management-System
+
+3. Install Dependencies
 pip install -r requirements.txt
 
-# 2. Configure secrets (see docs/INSTALL.md for details)
-cp .env.example .env
-# edit .env and fill in your API keys
+4. Run the Application
+python app.py
 
-# 3. Run the dashboard
-streamlit run dashboard/app.py
-```
+📊 Results
 
-The dashboard defaults to `http://localhost:8501`.
+The system provides:
 
-## Features
+Real-time vehicle detection
+Traffic density estimation
+Smart traffic monitoring
+AI-based traffic analysis
 
-| Category           | Modules                                                         |
-|--------------------|-----------------------------------------------------------------|
-| Core detection     | YOLOv8 / v9 / v10, 9 Indian vehicle classes                     |
-| Tracking & counting| ByteTrack, DeepSORT, zone / line counters                       |
-| Prediction         | LSTM + Attention, weather-aware forecasts (OpenWeatherMap)      |
-| Safety             | Accident detection, ANPR + blacklist, emergency-vehicle detect. |
-| Alerts             | Email (SMTP), Firebase Cloud Messaging                          |
-| Operations         | OpenRouteService route suggestions                              |
+🚀 Future Enhancements
 
-## Security
+IoT-based smart traffic signal control
+Cloud deployment for real-time monitoring
+Integration with live traffic APIs
+Improved prediction accuracy using larger datasets
 
-**The dashboard ships with a shared-password gate.** Set
-`DASHBOARD_PASSWORD` in your environment (or `.streamlit/secrets.toml`) before
-exposing the UI to anyone. Without it, a banner warns that the app is open.
+📜 License
 
-If the committed `.env.example` ever contained a real secret in your fork,
-rotate it immediately — tokens pushed to any remote must be treated as
-compromised.
+This project is developed for educational and research purposes.
 
-See [docs/INSTALL.md](docs/INSTALL.md) for full configuration details and
-[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for a system overview.
+👨‍💻 Author
 
-## Development
+Tharun Ramisetty
+https://github.com/Tharun-Ramisetty
 
-```bash
-# Run tests
-pytest
 
-# Lint
-ruff check src tests config
-ruff format src tests config
-
-# Pre-commit hooks (optional)
-pre-commit install
-```
-
-CI runs lint, unit tests on Python 3.10 / 3.11, and a pip-audit security
-scan on every push and pull request — see [.github/workflows/ci.yml](.github/workflows/ci.yml).
-
-## Project layout
-
-```
-vehical/
-├── config/           # Pydantic-style settings + YAML configs
-├── dashboard/        # Streamlit app and 11 feature pages
-├── data/             # Local datasets, logs, subscriber files (gitignored)
-├── docs/             # INSTALL, ARCHITECTURE, CONTRIBUTING
-├── models/           # Trained weights (gitignored)
-├── scripts/          # Data-prep CLIs
-├── src/              # Library code — see src/* per feature
-│   ├── alerts/               # AlertManager + email + in-app
-│   ├── accident_detection/
-│   ├── anpr/
-│   ├── counting/
-│   ├── detection/
-│   ├── emergency_detection/
-│   ├── export/
-│   ├── firebase_notifications/
-│   ├── maps/                 # Route suggestions + folium overlays
-│   ├── pipeline/
-│   ├── prediction/           # LSTM + weather features
-│   ├── tracking/
-│   └── utils/                # env validator, auth, retries, logging
-├── tests/            # pytest suite
-└── training/         # Model training scripts
-```
-
-## License
-
-Proprietary — see individual files for attribution.
