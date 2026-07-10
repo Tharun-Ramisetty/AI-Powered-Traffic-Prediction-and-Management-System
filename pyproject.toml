@@ -1,0 +1,86 @@
+[project]
+name = "ai-traffic-prediction"
+version = "0.2.0"
+description = "AI Traffic Prediction and Management System"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--tb=short",
+]
+markers = [
+    "integration: tests that hit external services (skipped in unit CI)",
+    "slow: tests that take more than a few seconds",
+]
+filterwarnings = [
+    "ignore::DeprecationWarning:fpdf.*",
+]
+
+[tool.coverage.run]
+source = ["src"]
+omit = [
+    "*/tests/*",
+    "*/__pycache__/*",
+    "venv/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+exclude = [
+    "venv",
+    "trained_models",
+    "runs",
+    "outputs",
+    "data",
+    "models",
+    "notebooks",
+    "create_ppt.py",
+    "create_presentation.py",
+    "embed_diagrams.py",
+    "extend_inline.py",
+    "extend_more.py",
+    "extend_report.py",
+    "generate_full_report.py",
+    "generate_project_report.py",
+    "generate_uml_diagrams.py",
+    "rebuild_report.py",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "W",   # pycodestyle warnings
+    "I",   # isort
+    "B",   # bugbear
+    "UP",  # pyupgrade
+    "SIM", # simplify
+]
+ignore = [
+    "E501",  # line too long — handled by formatter
+    "B008",  # function-call-in-default-argument (common for dataclasses)
+    "SIM108", # ternary rewrite
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["F401", "F811"]
+"__init__.py" = ["F401"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

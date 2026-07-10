@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (too large for git)
+data/raw/
+data/external/
+data/processed/frames/
+data/datasets/vehicle_detection/train/
+data/datasets/vehicle_detection/val/
+data/datasets/vehicle_detection/test/
+
+# Model weights
+models/yolov8/*.pt
+models/yolov9/*.pt
+models/yolov10/*.pt
+models/lstm/*.pth
+models/reid/*.pth
+*.onnx
+
+# Outputs
+outputs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+.streamlit/secrets.toml
+
+# User data with PII (tokens, flagged plates)
+data/fcm_device_tokens.json
+data/flagged_vehicles.json
+outputs/notifications.json
+
+# SQLite databases
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# Credentials
+*firebase-adminsdk*.json
+*-credentials.json
+*.pem
+*.key
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

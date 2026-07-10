@@ -1,0 +1,23 @@
+names:
+- big bus
+- big truck
+- bus-l-
+- bus-s-
+- car
+- mid truck
+- small bus
+- small truck
+- truck-l-
+- truck-m-
+- truck-s-
+- truck-xl-
+nc: 12
+roboflow:
+  license: CC BY 4.0
+  project: vehicles-q0x2v
+  url: https://universe.roboflow.com/roboflow-100/vehicles-q0x2v/dataset/2
+  version: 2
+  workspace: roboflow-100
+test: f:/vehical/data/datasets/vehicle_large/test/images
+train: f:/vehical/data/datasets/vehicle_large/train/images
+val: f:/vehical/data/datasets/vehicle_large/valid/images

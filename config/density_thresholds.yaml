@@ -1,0 +1,15 @@
+# Traffic Density Classification Thresholds
+# Vehicles currently visible in frame -> density level
+
+thresholds:
+  low: 5         # 0-4 vehicles = Low
+  medium: 15     # 5-14 vehicles = Medium
+  high: 30       # 15-29 vehicles = High
+  # 30+ vehicles = Congested
+
+# Set to true to auto-calibrate thresholds from historical data
+use_adaptive: false
+
+# Speed-based enhancement (pixels/frame)
+speed_thresholds:
+  congestion_speed: 5.0  # Below this speed with medium+ count = Congested

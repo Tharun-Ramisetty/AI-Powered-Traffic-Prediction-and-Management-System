@@ -1,0 +1,20 @@
+names:
+- Auto
+- Bike
+- Bus
+- Car
+- Scooty
+- Taxi
+- Tempo
+- Toto
+- Truck
+nc: 9
+roboflow:
+  license: CC BY 4.0
+  project: indian-vehicles-detection-n4kya
+  url: https://universe.roboflow.com/real-time-vehicle-detection/indian-vehicles-detection-n4kya/dataset/4
+  version: 4
+  workspace: real-time-vehicle-detection
+test: f:/vehical/data/datasets/vehicle_detection_real/test/images
+train: f:/vehical/data/datasets/vehicle_detection_real/train/images
+val: f:/vehical/data/datasets/vehicle_detection_real/valid/images

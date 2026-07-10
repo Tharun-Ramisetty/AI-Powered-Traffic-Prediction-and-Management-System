@@ -1,0 +1,13 @@
+names:
+- ambulance
+- fire-truck
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: indian-vehicle-detection-wuoum
+  url: https://universe.roboflow.com/kunnusherry/indian-vehicle-detection-wuoum/dataset/1
+  version: 1
+  workspace: kunnusherry
+test: ../test/images
+train: ../train/images
+val: ../valid/images

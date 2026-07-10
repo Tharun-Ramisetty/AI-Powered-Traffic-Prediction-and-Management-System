@@ -1,0 +1,13 @@
+# Ultralytics YOLOv8 Dataset Configuration
+path: ./data/datasets/vehicle_detection
+train: train/images
+val: val/images
+test: test/images
+
+nc: 5
+names:
+  0: auto
+  1: car
+  2: bus
+  3: truck
+  4: two_wheeler
