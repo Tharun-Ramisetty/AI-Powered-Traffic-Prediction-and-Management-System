@@ -120,3 +120,10 @@ https://github.com/Tharun-Ramisetty
 Watch the complete project demonstration on YouTube.
 
 [▶️ Watch Demo Video](https://youtu.be/pjTVbuiCPVk?si=kOUA6itoZTNJ0a-n)
+
+
+## 🏗️ System Architecture
+
+The following diagram illustrates the overall workflow of the AI-Powered Traffic Prediction and Management System.
+
+![System Architecture](system_architecture.png)
