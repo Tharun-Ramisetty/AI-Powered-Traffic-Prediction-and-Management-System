@@ -2,7 +2,11 @@
 
 ### 🏠 Main Dashboard
 ![Main Dashboard](dashboard1.png)
+
+### 🏠 Main Dashboard (Alternative View)
 ![Main Dashboard](dashboard2.png)
+
+### 🏠 Main Dashboard (Analytics View)
 ![Main Dashboard](dashboard3.png)
 
 ### 🚗 Vehicle Detection
