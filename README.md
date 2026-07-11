@@ -113,3 +113,10 @@ https://github.com/Tharun-Ramisetty
 
 ### 🔎 Automatic Number Plate Recognition (ANPR)
 ![Number Plate Detection](screenshots/Number%20Plate%20Detection.png)
+
+
+## 🎥 Project Demo
+
+Watch the project demonstration video:
+
+[▶️ AI Powered Traffic Prediction and Management System](AI%20Powered%20Traffic%20Prediction%20and%20Management%20System.mp4)
