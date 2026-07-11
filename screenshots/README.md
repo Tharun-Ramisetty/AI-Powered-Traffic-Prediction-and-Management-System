@@ -1,10 +1,16 @@
-# Project Screenshots
+## 📸 Screenshots
 
-This folder contains screenshots of the AI-Powered Traffic Prediction and Management System.
+### 🏠 Main Dashboard
+![Main Dashboard](screenshots/dashboard.png)
 
-## Screenshots
-- Dashboard
-- Vehicle Detection
-- Number Plate Detection
-- Traffic Density
-- Emergency Vehicle Detection
+### 🚗 Vehicle Detection
+![Vehicle Detection](screenshots/vehicle_detection.png)
+
+### 📊 Traffic Prediction
+![Traffic Prediction](screenshots/traffic_prediction.png)
+
+### 🚑 Emergency Vehicle Detection
+![Emergency Vehicle Detection](screenshots/emergency_vehicle_detection.png)
+
+### 🔎 Automatic Number Plate Recognition (ANPR)
+![Number Plate Detection](screenshots/number_plate_detection.png)
