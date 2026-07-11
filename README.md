@@ -63,6 +63,7 @@ pip install -r requirements.txt
 
 4. Run the Application
 python app.py
+```
 
 📊 Results
 
