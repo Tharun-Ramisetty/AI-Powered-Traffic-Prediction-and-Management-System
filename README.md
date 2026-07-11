@@ -117,6 +117,6 @@ https://github.com/Tharun-Ramisetty
 
 ## 🎥 Project Demo
 
-Watch the project demonstration video:
+Watch the complete project demonstration on YouTube.
 
-[▶️ AI Powered Traffic Prediction and management System](AI%20Powered%20Traffic%20Prediction%20and%20management%20System.mp4)
+[▶️ Watch Demo Video](https://youtu.be/pjTVbuiCPVk?si=kOUA6itoZTNJ0a-n)
