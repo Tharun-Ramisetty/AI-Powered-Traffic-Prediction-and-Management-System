@@ -90,3 +90,26 @@ Tharun Ramisetty
 https://github.com/Tharun-Ramisetty
 
 
+## 📸 Screenshots
+
+### 🏠 Main Dashboard
+![Main Dashboard](screenshots/dashboard1.png)
+
+### 🏠 Main Dashboard (Alternative View)
+![Main Dashboard](screenshots/dashboard2.png)
+
+### 🏠 Main Dashboard (Analytics View)
+![Main Dashboard](screenshots/dashboard3.png)
+
+### 🚗 Vehicle Detection
+![Vehicle Detection](screenshots/Vehicle Detection.png)
+
+### 📊 Traffic Density Prediction
+![Traffic Density](screenshots/Traffic Density.png)
+
+### 🚑 Emergency Vehicle Detection
+![Emergency Vehicle Detection](screenshots/Emergency Vehicle Detection.png)
+
+### 🔎 Automatic Number Plate Recognition (ANPR)
+![Number Plate Detection](screenshots/Number Plate Detection.png)
+
