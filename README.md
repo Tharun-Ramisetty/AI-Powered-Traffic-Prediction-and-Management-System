@@ -102,14 +102,13 @@ https://github.com/Tharun-Ramisetty
 ![Main Dashboard](screenshots/dashboard3.png)
 
 ### 🚗 Vehicle Detection
-![Vehicle Detection](screenshots/Vehicle Detection.png)
+![Vehicle Detection](screenshots/Vehicle%20Detection.png)
 
 ### 📊 Traffic Density Prediction
-![Traffic Density](screenshots/Traffic Density.png)
+![Traffic Density](screenshots/Traffic%20Density.png)
 
 ### 🚑 Emergency Vehicle Detection
-![Emergency Vehicle Detection](screenshots/Emergency Vehicle Detection.png)
+![Emergency Vehicle Detection](screenshots/Emergency%20Vehicle%20Detection.png)
 
 ### 🔎 Automatic Number Plate Recognition (ANPR)
-![Number Plate Detection](screenshots/Number Plate Detection.png)
-
+![Number Plate Detection](screenshots/Number%20Plate%20Detection.png)
