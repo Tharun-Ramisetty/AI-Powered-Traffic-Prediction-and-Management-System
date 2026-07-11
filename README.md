@@ -93,7 +93,7 @@ https://github.com/Tharun-Ramisetty
 ## 📸 Screenshots
 
 ### 🏠 Main Dashboard
-![Main Dashboard](./screenshots/dashboard1.png)
+![Main Dashboard](screenshots/dashboard1.png)
 
 ### 🏠 Main Dashboard (Alternative View)
 ![Main Dashboard](screenshots/dashboard2.png)
