@@ -1,16 +1,16 @@
 ## 📸 Screenshots
 
 ### 🏠 Main Dashboard
-![Main Dashboard](screenshots/dashboard.png)
+![Main Dashboard](dashboard1.png)
 
 ### 🚗 Vehicle Detection
-![Vehicle Detection](screenshots/vehicle_detection.png)
+![Vehicle Detection](Vehicle%20Detection.png)
 
-### 📊 Traffic Prediction
-![Traffic Prediction](screenshots/traffic_prediction.png)
+### 📊 Traffic Density Prediction
+![Traffic Density](Traffic%20Density.png)
 
 ### 🚑 Emergency Vehicle Detection
-![Emergency Vehicle Detection](screenshots/emergency_vehicle_detection.png)
+![Emergency Vehicle Detection](Emergency%20Vehicle%20Detection.png)
 
 ### 🔎 Automatic Number Plate Recognition (ANPR)
-![Number Plate Detection](screenshots/number_plate_detection.png)
+![Number Plate Detection](Number%20Plate%20Detection.png)
