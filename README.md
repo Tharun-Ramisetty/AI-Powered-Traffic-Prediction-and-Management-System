@@ -53,7 +53,7 @@ AI-Powered-Traffic-Prediction-and-Management-System/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AI-Powered-Traffic-Prediction-and-Management-System.git
+git clone https://github.com/Tharun-Ramisetty/AI-Powered-Traffic-Prediction-and-Management-System.git
 
 2. Navigate to Project Directory
 cd AI-Powered-Traffic-Prediction-and-Management-System
